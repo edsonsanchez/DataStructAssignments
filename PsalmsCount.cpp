@@ -1,3 +1,6 @@
+// Code to count the number of times each character appears in the book of Psalms
+// Starts counting after the tab that follows the verse name
+
 #include <iostream>
 #include <fstream>
 #include <string>
