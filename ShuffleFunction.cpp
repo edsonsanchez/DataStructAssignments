@@ -1,3 +1,5 @@
+//Function that shuffles array of n integers
+
 #include <iostream>
 #include <vector> 
 #include <ctime>
