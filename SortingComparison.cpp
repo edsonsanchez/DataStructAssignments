@@ -1,3 +1,5 @@
+// Compares the times of the Built-In C++ sort vs. Merge Sort vs. Bubble Sort
+
 #include <iostream>
 #include <algorithm>
 #include <chrono>
@@ -91,7 +93,7 @@ cout << '\t' << float(duration.count())/1000.0 << " seconds"<<endl;
 
 
 // BUBBLE SORT
-/*  loadArray();
+loadArray();
 cout<<"Bubble Sort Time:";
 auto start2 = chrono::high_resolution_clock::now();
 
@@ -105,7 +107,7 @@ auto start2 = chrono::high_resolution_clock::now();
 
 auto end2 = chrono::high_resolution_clock::now();
 auto duration2 = chrono::duration_cast<milliseconds>(end2 - start2);
-cout << '\t' << float(duration2.count())/1000.0 << " seconds"<<endl;  */
+cout << '\t' << float(duration2.count())/1000.0 << " seconds"<<endl;  
 
 
 // Merge Sort
